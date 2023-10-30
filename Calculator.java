@@ -2,8 +2,8 @@ import java.util.*;
 
 class Calculator {
 	public static void main(String[] args) {
-		char operator, operator1;
-		Double int1, int2, int3, result;
+		char operator, operator1, operator2;
+		Double int1, int2, int3, int4, result;
 		int amountOfNumbers;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter # of numbers you want to use: ");
@@ -174,6 +174,467 @@ class Calculator {
 			}
 			
 			break;
+			
+		case 4:
+		
+		
+		
+		case '+':
+			
+			System.out.print("Enter number 1: ");
+			int1 = sc.nextDouble();
+			System.out.print("Enter operator (+,-,*,/): ");
+			operator = sc.next().charAt(0);
+			System.out.print("Enter number 2: ");
+			int2 = sc.nextDouble();
+			System.out.print("Enter operator (+,-,*,/): ");
+			operator1 = sc.next().charAt(0);
+			System.out.print("Enter number 3: ");
+			int3 = sc.nextDouble();
+			System.out.print("Enter operator (+,-,*,/): ");
+			operator2 = sc.next().charAt(0);
+			System.out.print("Enter number 3: ");
+			int4 = sc.nextDouble();
+			
+			
+			switch (operator) {
+			
+			case '+':
+				switch (operator1) {
+				
+				case '+':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 + int3 + int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 + int3 - int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 + int3 * int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 + int3 / int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '-':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 - int3 + int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 - int3 - int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 - int3 * int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 - int3 / int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '*':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 * int3 + int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 * int3 - int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 * int3 * int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 * int3 / int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '/':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 / int3 + int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 / int3 - int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 / int3 * int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 / int3 / int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				}
+				break;
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			case '-':
+				switch (operator1) {
+				
+				case '+':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 + int3 + int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 + int3 - int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 + int3 * int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 + int3 / int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '-':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 - int3 + int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 - int3 - int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 - int3 * int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 - int3 / int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '*':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 * int3 + int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 * int3 - int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 * int3 * int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 * int3 / int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '/':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 / int3 + int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 / int3 - int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 / int3 * int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 / int3 / int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				}
+				break;
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			case '*':
+				switch (operator1) {
+				
+				case '+':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 + int3 + int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 + int3 - int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 + int3 * int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 + int3 / int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '-':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 - int3 + int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 - int3 - int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 - int3 * int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 - int3 / int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '*':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 * int3 + int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 * int3 - int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 * int3 * int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 * int3 / int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '/':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 / int3 + int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 / int3 - int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 / int3 * int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 / int3 / int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				}
+				break;
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			case '/':
+				switch (operator1) {
+				
+				case '+':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 + int3 + int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 + int3 - int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 + int3 * int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 + int3 / int4;
+						System.out.println(int1 + "+" + int2 + "+" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '-':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 - int3 + int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 - int3 - int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 - int3 * int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 - int3 / int4;
+						System.out.println(int1 + "+" + int2 + "-" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '*':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 * int3 + int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 * int3 - int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 * int3 * int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 * int3 / int4;
+						System.out.println(int1 + "+" + int2 + "*" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				
+				case '/':
+					switch (operator2) {
+					case '+':
+						result = int1 + int2 / int3 + int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "+" + int4 + "=" + result);
+						break;
+					
+					case '-':
+						result = int1 + int2 / int3 - int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "-" + int4 + "=" + result);
+						break;
+					
+					case '*':
+						result = int1 + int2 / int3 * int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "*" + int4 + "=" + result);
+						break;
+					
+					case '/':
+						result = int1 + int2 / int3 / int4;
+						System.out.println(int1 + "+" + int2 + "/" + int3 + "/" + int4 + "=" + result);
+						break;
+					}
+					break;
+				}
+				break;
+			
+				
+			}
+		
+		
+		
 		}
 
 	}
